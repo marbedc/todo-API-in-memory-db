@@ -113,7 +113,8 @@ db.run(insertQuery, [name, priority, isComplete, isFun], function(err) {
     return console.error("Error inserting Todo:", err.message);
   }
   console.log(`A row has been inserted with rowid ${this.lastID}`);
-  res.send("Todo added")
+  res.json({ message: "Todo added", id: this.lastID });
+
 });
 
 });
