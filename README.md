@@ -63,6 +63,9 @@ You can deploy this project on platforms like Glitch, Render, or Railway.
 Be sure to update your database connection info accordingly when deploying.
 
 📎 Useful Links
+link to repo:  https://marbedc.github.io/todo-API-in-memory-db/
+
+link to glitch deployed website: https://comet-uncovered-topaz.glitch.me
 
 
 
