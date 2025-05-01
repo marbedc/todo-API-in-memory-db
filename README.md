@@ -17,8 +17,10 @@ This is a simple full-stack Node.js and Express.js application that provides a R
 ### 🧱 Each todo has the following structure:
 {
 "id": "unique-id",
-"title": "Buy groceries",
-"completed": false
+"name": "Buy groceries",
+"priority": "high"
+"isComplete": false,
+"isFun": true
 }
 
 🖥️ Frontend
