@@ -10,7 +10,7 @@ document.getElementById('submitTodo').addEventListener('click', async () => {
   const priority = document.getElementById('todoPriority').value || 'low';
   const isFun = document.getElementById('todoIsFun').value || 'true';
 
-  const todo = { name, priority, isFun };
+  const todo = { name, priority, isComplete: 0 ,isFun };
 
   const response = await fetch('/todos', {
     method: 'POST',
